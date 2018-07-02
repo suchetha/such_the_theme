@@ -2,7 +2,7 @@ name: Such The Theme
 type: theme
 description: 'An initial attempt at a mobile-first base theme to my standards'
 core: 8.x
-base theme: classy
+base theme: stable
 regions:
   header: Header
   primary_menu: 'Primary Menu'
