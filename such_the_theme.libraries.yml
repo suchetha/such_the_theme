@@ -1,7 +1,7 @@
 # such_the_theme.libraries.yml
 
 global-styling:
-  version: 0.1
+  version: VERSION
   css:
     theme:
       styles/css/components/base.css: {}
