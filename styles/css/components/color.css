@@ -1,0 +1,15 @@
+/*
+ * This file sets up all the colour settings for the theme.
+ * It is recommended that you change the settings for colours here
+ */
+
+/*
+ * Setting the base background and text colours
+ * Basic black text on a white background
+ */
+html {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+

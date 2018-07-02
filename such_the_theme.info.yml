@@ -1,0 +1,19 @@
+name: Such The Theme
+type: theme
+base theme: false
+regions:
+  header: Header
+  primary_menu: 'Primary Menu'
+  secondary_menu: 'Secondary Menu'
+  highlighted: Highlighted
+  help: Help
+  featured: Featured
+  page_top: 'Page Top'
+  content: Content
+  page_bottom: 'Page Bottom'
+  sidebar_first: 'First Sidebar'
+  sidebar_second: 'Second Sidebar'
+  footer: Footer
+  breadcrumb: Breadcrumb
+
+
