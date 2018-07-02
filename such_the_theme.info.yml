@@ -2,7 +2,7 @@ name: Such The Theme
 type: theme
 description: 'An initial attempt at a mobile-first base theme to my standards'
 core: 8.x
-base theme: false
+base theme: classy
 regions:
   header: Header
   primary_menu: 'Primary Menu'
@@ -18,4 +18,5 @@ regions:
   footer: Footer
   breadcrumb: Breadcrumb
 
-
+libraries:
+  - such_the_theme/global-styling

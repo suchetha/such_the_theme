@@ -1,7 +1,9 @@
-global-styling-and-scripts:
-  version: VERSION
+# such_the_theme.libraries.yml
+
+global-styling:
+  version: 0.1
   css:
     theme:
-      styles/css/base.css: {}
-      styles/css/color.css: {}
+      styles/css/components/base.css: {}
+      styles/css/components/color.css: {}
       styles/css/style.css: {}
