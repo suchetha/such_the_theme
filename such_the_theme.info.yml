@@ -15,6 +15,9 @@ regions:
   page_bottom: 'Page Bottom'
   sidebar_first: 'First Sidebar'
   sidebar_second: 'Second Sidebar'
+  bottom_1: 'Page Bottom 1'
+  bottom_2: 'Page Bottom 2'
+  bottom_3: 'Page Bottom 3'
   footer: Footer
   breadcrumb: Breadcrumb
 

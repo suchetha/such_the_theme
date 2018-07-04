@@ -48,4 +48,9 @@ h6 {
   margin: 2.33em 0;
 }
 
-
+/*
+ * Settings for the navigation menu
+ */
+nav ul {
+  list-style-type: none;
+} 
