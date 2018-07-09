@@ -7,4 +7,5 @@ global-styling:
       styles/css/contrib/normalize.css: {}
       styles/css/components/base.css: {}
       styles/css/components/color.css: {}
+      styles/css/components/branding.css: {}
       styles/css/style.css: {}
