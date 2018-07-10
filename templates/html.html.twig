@@ -25,6 +25,11 @@
     * @ingroup themeable
   */
 #}
+{%
+  set body_classes = [
+    is_front ? 'front'
+  ]
+%}
 <!DOCTYPE html>
   <html{{ html_attributes }}>
     <head>
