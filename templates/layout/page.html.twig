@@ -49,13 +49,13 @@
   */
 #}
 <div class="layout-container">
-  <div class="page">
-
+  <div class="page{{ is_front? ' front-page' }}">
     <header role="banner">
       {{ page.header }}
     </header>
 
     {{ page.primary_menu }}
+
     {{ page.secondary_menu }}
 
     {{ page.breadcrumb }}
@@ -86,19 +86,19 @@
     </main>
 
     {% if (page.bottom_1 or page.bottom_2 or page.bottom_3) %}
-    <div class="page_bottom">
+    <div id="page-bottom" class="page-bottom-container">
       {% if page.bottom_1 %}
-        <div class="page_bottom_1 page_bottom--element">
+        <div class="page-bottom-1 page-bottom--element">
           {{ page.bottom_1 }}
         </div>
       {% endif %}
       {% if page.bottom_2 %}
-        <div class="page_bottom_2 page_bottom--element">
+        <div class="page-bottom-2 page-bottom--element">
           {{ page.bottom_2 }}
         </div>
       {% endif %}
       {% if page.bottom_3 %}a
-        <div class="page_bottom_3 page_bottom--element">
+        <div class="page-bottom-3 page-bottom--element">
           {{ page.bottom_3 }}
         </div>
       {% endif %}
@@ -106,9 +106,9 @@
     {% endif %}
 
     {% if page.footer %}
-      <footer role="contentinfo">
-        {{ page.footer }}
-      </footer>
+    <footer role="contentinfo">
+      {{ page.footer }}
+    </footer>
     {% endif %}
 
   </div>{# /.page #}

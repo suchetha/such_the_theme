@@ -7,6 +7,7 @@ global-styling:
       styles/css/contrib/normalize.css: {}
       styles/css/components/base.css: {}
       styles/css/components/color.css: {}
+      styles/css/components/layout.css: {}
       styles/css/components/branding.css: {}
-      styles/css/components/menu.css: {}
+      styles/css/components/navigation.css: {}
       styles/css/style.css: {}

@@ -7,7 +7,7 @@
  * Setting the base background and text colours
  * Basic black text on a white background
  */
-html {
+html body {
   color: #000000;
   background-color: #ffffff;
 }

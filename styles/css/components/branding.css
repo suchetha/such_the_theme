@@ -1,0 +1,32 @@
+/*
+ * branding.css
+ * This stylesheets sets the styles for the branding section
+ */
+
+
+#block-such-the-theme-branding {
+}
+
+#block-such-the-theme-branding .site-branding {
+  display: flex;
+  align-items: center;
+}
+
+#block-such-the-theme-branding .site-branding-item {
+  display: inline-block;
+}
+
+#block-such-the-theme-branding .site-branding__logo-link,
+#block-such-the-theme-branding .site-branding__text {
+}
+
+
+#block-such-the-theme-branding img.site-branding__logo-img {
+  width: 10vw;
+  display: inline-block;
+}
+
+#block-such-the-theme-branding .site-branding__text .site-branding-item {
+  display: block;
+  margin: 0 .5em;
+}

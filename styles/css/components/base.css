@@ -5,11 +5,15 @@
  *  - Sans-serif fonts as default
  */
 
-html {
+html, body {
   font-family: Verdana, Geneva, sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.4rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,3 +51,4 @@ h6 {
   font-size: .67em;
   margin: 2.33em 0;
 }
+

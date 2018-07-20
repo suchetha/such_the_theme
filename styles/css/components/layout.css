@@ -1,0 +1,26 @@
+/*
+ *  layout.css
+ *  This file sets up the layouts for the website
+ *  It is set up to be mobile first, and everything else follows
+ */
+
+.region {
+  width: 100%;
+  padding: 1em;
+  padding-top: 0;
+}
+
+
+@media screen and (min-width: 480px) {
+
+}
+
+@media screen and (min-width: 960px) {
+  .region-content {
+    max-width: 960px; /* Because 960px is a good width to read from. Anything else gets weird. */
+  }
+}
+
+@media screen and (min-width: 1200px ) {
+
+}
