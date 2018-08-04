@@ -1,6 +1,7 @@
 /*
- * This file sets up all the colour settings for the theme.
- * It is recommended that you change the settings for colours here
+ * This file sets up the base colour settings for the theme.
+ * The colours for the specific regions can be found in the regions subdirectory, under their specific region name.
+ * Those files are brought together by regions.css that also has overall region colours and other CSS.
  */
 
 /*
@@ -11,5 +12,3 @@ html body {
   color: #000000;
   background-color: #ffffff;
 }
-
-

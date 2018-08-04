@@ -1,0 +1,9 @@
+/*
+ *  print.css
+ *  This file gest rid of all the extraneous stuff, so you can get a decent printout
+ */
+@media print {
+  .region-primary-menu, .region-footer {
+    display: none;
+  }
+}

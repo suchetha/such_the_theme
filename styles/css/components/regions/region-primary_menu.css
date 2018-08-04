@@ -1,0 +1,22 @@
+/*
+ *  region-primary_menu.css
+ *  This file contains the override css for the specific regions
+ */
+.region-primary-menu {
+  padding: 0 2em;
+  background-color: #0000A0;
+}
+
+.region-primary-menu a {
+  color: #fff;
+}
+
+.region-primary-menu a:visited {
+  color: #aaa;
+}
+
+.region-primary-menu a:hover {
+  color: #ff0;
+}
+
+

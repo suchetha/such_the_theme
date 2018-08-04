@@ -8,6 +8,24 @@ global-styling:
       styles/css/components/base.css: {}
       styles/css/components/color.css: {}
       styles/css/components/layout.css: {}
+      styles/css/components/region.css: {}
+      styles/css/components/regions/region-header.css: {}
+      styles/css/components/regions/region-primary_menu.css: {}
+      styles/css/components/regions/region-secondary_menu.css: {}
+      styles/css/components/regions/region-highlighted.css: {}
+      styles/css/components/regions/region-help.css: {}
+      styles/css/components/regions/region-featured.css: {}
+      styles/css/components/regions/region-page_top.css: {}
+      styles/css/components/regions/region-content.css: {}
+      styles/css/components/regions/region-page_bottom.css: {}
+      styles/css/components/regions/region-sidebar_first.css: {}
+      styles/css/components/regions/region-sidebar_second.css: {}
+      styles/css/components/regions/region-bottom_1.css: {}
+      styles/css/components/regions/region-bottom_2.css: {}
+      styles/css/components/regions/region-bottom_3.css: {}
+      styles/css/components/regions/region-footer.css: {}
+      styles/css/components/regions/region-breadcrumb.css: {}
       styles/css/components/branding.css: {}
       styles/css/components/navigation.css: {}
+      styles/css/components/print.css: {}
       styles/css/style.css: {}
