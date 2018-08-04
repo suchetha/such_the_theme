@@ -6,12 +6,14 @@
 
 .region {
   width: 100%;
-  padding: .5em 2em;
+  padding: .5em;
 }
 
 
 @media screen and (min-width: 480px) {
-
+  .region {
+    padding: .5em 2em;
+  }
 }
 
 @media screen and (min-width: 960px) {

@@ -3,7 +3,7 @@
  *  This file contains the override css for the specific regions
  */
 .region-primary-menu {
-  padding: 0 2em;
+  padding: 0;
   background-color: #0000A0;
 }
 
@@ -19,4 +19,10 @@
   color: #ff0;
 }
 
+
+@media screen and (min-width: 480px) {
+  .region-primary-menu {
+    padding: .5em 2em;
+  }
+}
 

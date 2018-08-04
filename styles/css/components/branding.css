@@ -29,12 +29,14 @@ img.site-branding__logo-img {
   display: block;
 }
 
-.site-branding__name {
-  font-size: 4rem;
-  line-height: 125%;
-}
+@media screen and (min-width: 960px) {
+  .site-branding__name {
+    font-size: 4rem;
+    line-height: 125%;
+  }
 
-.site-branding__slogan {
-  font-size: 2rem;
-  line-height: 125%;
+  .site-branding__slogan {
+    font-size: 2rem;
+    line-height: 125%;
+  }
 }
