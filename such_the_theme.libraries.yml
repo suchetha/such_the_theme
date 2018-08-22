@@ -9,7 +9,9 @@ global-styling:
       styles/css/components/color.css: {}
       styles/css/components/layout.css: {}
       styles/css/components/region.css: {}
-      styles/css/components/regions/region-header.css: {}
+      styles/css/components/regions/region-leaderboard.css: {}
+      styles/css/components/regions/region-header_1.css: {}
+      styles/css/components/regions/region-header_2.css: {}
       styles/css/components/regions/region-primary_menu.css: {}
       styles/css/components/regions/region-secondary_menu.css: {}
       styles/css/components/regions/region-highlighted.css: {}
@@ -23,7 +25,10 @@ global-styling:
       styles/css/components/regions/region-bottom_1.css: {}
       styles/css/components/regions/region-bottom_2.css: {}
       styles/css/components/regions/region-bottom_3.css: {}
-      styles/css/components/regions/region-footer.css: {}
+      styles/css/components/regions/region-bottom_4.css: {}
+      styles/css/components/regions/region-footer_1.css: {}
+      styles/css/components/regions/region-footer_2.css: {}
+      styles/css/components/regions/region-footer_3.css: {}
       styles/css/components/regions/region-breadcrumb.css: {}
       styles/css/components/branding.css: {}
       styles/css/components/navigation.css: {}

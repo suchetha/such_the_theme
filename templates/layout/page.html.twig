@@ -50,8 +50,10 @@
 #}
 <div class="layout-container">
   <div class="page{{ is_front? ' front-page' }}">
-    <header role="banner">
-      {{ page.header }}
+    {{ page.leaderboard }}
+    <header role="banner" class="r-container container--header'>
+      {{ page.header_1 }}
+      {{ page.header_2 }}
     </header>
 
     {{ page.primary_menu }}
@@ -64,9 +66,8 @@
 
     {{ page.help }}
 
-    <main role="main">
+    <main role="main" class="r-container container--content">
       <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
-
       <div class="layout-content">
         {{ page.content }}
       </div>{# /.layout-content #}
@@ -82,11 +83,10 @@
           {{ page.sidebar_second }}
         </aside>
       {% endif %}
-
     </main>
 
     {% if (page.bottom_1 or page.bottom_2 or page.bottom_3) %}
-    <div id="page-bottom" class="page-bottom-container">
+    <div id="page-bottom" class="r-container container--page-bottom">
       {% if page.bottom_1 %}
         <div class="page-bottom-1 page-bottom--element">
           {{ page.bottom_1 }}
@@ -105,9 +105,11 @@
     </div>
     {% endif %}
 
-    {% if page.footer %}
-    <footer role="contentinfo">
-      {{ page.footer }}
+    {% if page.footer_1 or page.footer_2 or page.footer_3 %}
+    <footer role="contentinfo" class="r-container container--footer">
+      {{ page.footer_1 }}
+      {{ page.footer_2 }}
+      {{ page.footer_3 }}
     </footer>
     {% endif %}
 

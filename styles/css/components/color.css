@@ -12,3 +12,7 @@ html body {
   color: #000000;
   background-color: #ffffff;
 }
+
+.container--header {
+  background-color: #cccccc;
+}

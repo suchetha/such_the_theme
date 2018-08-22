@@ -4,21 +4,29 @@ description: 'An initial attempt at a mobile-first base theme to my standards'
 core: 8.x
 base theme: stable
 regions:
-  header: Header
+  leaderboard: 'Leaderboard'
+  header_1: 'Header 1'
+  header_2: 'Header 2'
   primary_menu: 'Primary Menu'
   secondary_menu: 'Secondary Menu'
   highlighted: Highlighted
   help: Help
   featured: Featured
-  page_top: 'Page Top'
+  top_1: 'Page Top 1'
+  top_2: 'Page Top 2'
+  top_3: 'Page Top 3'
+  content_top: 'Content Top'
   content: Content
-  page_bottom: 'Page Bottom'
   sidebar_first: 'First Sidebar'
   sidebar_second: 'Second Sidebar'
+  content_bottom: 'Content Bottom'
   bottom_1: 'Page Bottom 1'
   bottom_2: 'Page Bottom 2'
   bottom_3: 'Page Bottom 3'
-  footer: Footer
+  bottom_4: 'Page Bottom 4'
+  footer_1: 'Footer 1'
+  footer_2: 'Footer 2'
+  footer_3: 'Footer 3'
   breadcrumb: Breadcrumb
 
 libraries:

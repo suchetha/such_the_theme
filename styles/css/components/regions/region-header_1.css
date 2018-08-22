@@ -2,10 +2,6 @@
  *  region-header.css
  *  This file contains the override css for the specific regions
  */
-.region-header {
-  background-color: #ADD8E6;
-}
-
 @media screen and (min-width: 960px) {
-  
+
 }
