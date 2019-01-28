@@ -28,6 +28,5 @@ regions:
   footer_2: 'Footer 2'
   footer_3: 'Footer 3'
   breadcrumb: Breadcrumb
-
 libraries:
   - such_the_theme/global-styling
