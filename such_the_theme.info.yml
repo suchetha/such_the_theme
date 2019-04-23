@@ -10,6 +10,7 @@ regions:
   primary_menu: 'Primary Menu'
   secondary_menu: 'Secondary Menu'
   highlighted: Highlighted
+  hero: Hero
   help: Help
   featured: Featured
   top_1: 'Page Top 1'
