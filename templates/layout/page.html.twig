@@ -61,6 +61,8 @@
     {{ page.secondary_menu }}
 
     {{ page.breadcrumb }}
+    
+    {{ page.hero }}
 
     {{ page.highlighted }}
 
@@ -104,11 +106,6 @@
       {% endif %}
     </div>
     {% endif %}
-    {% if page.footer %}
-    <footer>
-      {{ page.footer }}
-    </footer>
-    {% endif %}
     {% if page.footer_1 or page.footer_2 or page.footer_3 %}
     <footer role="contentinfo" class="r-container container--footer">
       {{ page.footer_1 }}
@@ -116,6 +113,5 @@
       {{ page.footer_3 }}
     </footer>
     {% endif %}
-
   </div>{# /.page #}
 </div>{# /.layout-container #}

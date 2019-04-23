@@ -14,6 +14,7 @@ global-styling:
       styles/css/components/regions/region-header_2.css: {}
       styles/css/components/regions/region-primary_menu.css: {}
       styles/css/components/regions/region-secondary_menu.css: {}
+      styles/css/components/regions/region-hero.css: {}
       styles/css/components/regions/region-highlighted.css: {}
       styles/css/components/regions/region-help.css: {}
       styles/css/components/regions/region-featured.css: {}
